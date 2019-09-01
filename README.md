@@ -12,11 +12,13 @@ Execute `dotnet test` para executar os testes.
 
 Execute `dotnet run --project .\DTI\DTI.csproj` para iniciar o sistema ou execute `dotnet publish -c Release -r win-x64 --self-contained false` para gerar o executavel na pasta `<pasta-do-projeto>\src\DTI\bin\Release\netcoreapp2.1\win-x64\publish`.
 
-O programa utilizará o locale para **pt-br**, ou seja datas terão o formato *"dd/MM/yyyy"* e separador decimal será o caracter *" , "*
-
 A qualquer momento durante a execução, pressionar `ctrl+c` irá parar a execução do programa.
 
 ## Observações gerais
+
+O programa utilizará o locale para **pt-br**, ou seja, datas terão o formato *"dd/MM/yyyy"* e separador decimal será o caracter *" , "*.
+
+O programa também considerará que "hora" esteja no formato 24h.
 
 O programa conta com alguns alimentos já cadastrados, separados em 3 grupos, com seus respectivos valors calóricos.
 
