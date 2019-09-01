@@ -7,10 +7,10 @@ namespace XUnitTestProject1
     public class AlimentoDadosTest
     {
         [Theory]
-        [InlineData(1D)]
-        [InlineData(3.2D)]
-        [InlineData(5)]
-        [InlineData(7.7D)]
+        [InlineData(1000D)]
+        [InlineData(300.2D)]
+        [InlineData(500)]
+        [InlineData(700.7D)]
         public void DeveTrazerListaComRegistrosValidos(double maximoValorcalorico)
         {
             var alimentoDados = new Dados.AlimentoDados();

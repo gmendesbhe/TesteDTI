@@ -14,55 +14,55 @@ namespace Dados
             new Modelos.Alimento()
             {
                 Descricao="Arroz",
-                ValorCalorico = 1,
+                ValorCalorico = 100,
                 Grupo = 1
             },
             new Modelos.Alimento()
             {
                 Descricao="Feijão",
-                ValorCalorico = 2,
+                ValorCalorico = 236.44,
                 Grupo = 1
             },
             new Modelos.Alimento()
             {
                 Descricao="Quinoa",
-                ValorCalorico = 3,
+                ValorCalorico = 312.33,
                 Grupo = 1
             },
             new Modelos.Alimento()
             {
                 Descricao="Frango",
-                ValorCalorico = 1,
+                ValorCalorico = 150.43,
                 Grupo = 2
             },
             new Modelos.Alimento()
             {
                 Descricao="Boi",
-                ValorCalorico = 1,
+                ValorCalorico = 500,
                 Grupo = 2
             },
             new Modelos.Alimento()
             {
                 Descricao="Porco",
-                ValorCalorico = 1,
+                ValorCalorico = 407,
                 Grupo = 2
             },
             new Modelos.Alimento()
             {
                 Descricao="Alface",
-                ValorCalorico = 1,
+                ValorCalorico = 50.8,
                 Grupo = 3
             },
             new Modelos.Alimento()
             {
                 Descricao="Tomate",
-                ValorCalorico = 1,
+                ValorCalorico = 100,
                 Grupo = 3
             },
             new Modelos.Alimento()
             {
                 Descricao="Rúcula",
-                ValorCalorico = 1,
+                ValorCalorico = 178,
                 Grupo = 3
             },
         };
