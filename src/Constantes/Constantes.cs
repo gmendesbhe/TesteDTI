@@ -4,8 +4,6 @@ namespace Utilitario
 {
     public static class Constantes
     {
-        public const int TAMANHO_MAXIMO_NOME = 50;
-
         public const string SAIR = "SAIR";
         public const string VOLTAR = "VOLTAR";
 
