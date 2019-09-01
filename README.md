@@ -22,6 +22,12 @@ O programa conta com alguns alimentos já cadastrados, separados em 3 grupos, co
 
 O programa conta com 4 operações básica, cadastro e lista de pacientes, e cadastro e lista de consultas.
 
+Para o cadastro de pacientes todos os dados são obrigatórios.
+
+Para o cadastro de consultas, "Sensação física" e "Dieta" são os únicos dados **não** obrigatórios.
+
+Selecionar um item nas listas de paciente e consulta permite a alteração do mesmo.
+
 O código foi dividido em camadas de Apresentação (classes para exibição na tela), Modelo (classes de modelo de persistência), Dados (classes de acesso aos dados persistidos), Menu (classes de "tela"), Interfaces e Utilitários.
 
 
